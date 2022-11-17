@@ -11,7 +11,7 @@ class Point:
         return self.sqx+self.sqy+self.sqz
 a=Point(1,3,5)
 print(a.SqSum())
-print("---------")
+
     
 # #CHALLENGE 2
 class Calculator():
@@ -31,7 +31,7 @@ print(c.add())
 print(c.substract())
 print(c.multiply())
 print(c.divide())
-print("-------")
+
 
 # CHALLENGE 3
 class Student:
@@ -48,7 +48,7 @@ s.setName("Yash")
 print(s.getName())
 s.setRollNumber(69)
 print(s.getRollNumber())
-print("------")
+
 
 #CHALLENGE 4
 class Account:
@@ -76,7 +76,7 @@ print(f"Available Balance is {SA.balance} Rs")
 print(f"Name of the Account Holder is {A.title}")
 print(f"Interest Rate on Current Balance in percent is {SA.InterestRate}")
 print(f"Here, {SA.title} is the title, {SA.balance} is the balance and {SA.InterestRate} is the interestRate .")
-print("------------")
+
 
 # Challenge 5
 # handling bank account
@@ -114,7 +114,9 @@ print(Aw.getBalance())
 
 Si=SavingsAccount("yash",2000,5)
 print(Si.interestAmount())
-print("----------")
+
+
+
 
 
 
